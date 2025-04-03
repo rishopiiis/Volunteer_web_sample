@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Volunteer for [Event Name]</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>🚀 Volunteer for [Event Name]</h1>
+        <p>Join us in making this event a success!</p>
+    </header>
+
+    <section class="about">
+        <h2>About the Event</h2>
+        <p>📅 <strong>Date:</strong> [Event Date]</p>
+        <p>📍 <strong>Location:</strong> [Event Venue]</p>
+        <p>Help us with tasks like registration, logistics, and more!</p>
+    </section>
+
+    <section class="signup-form">
+        <h2>Sign Up to Volunteer</h2>
+        <form action="https://formspree.io/f/mqapydlj" method="POST">
+            <label for="name">Full Name*</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email*</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" name="phone">
+
+            <label for="role">Preferred Role*</label>
+            <select id="role" name="role" required>
+                <option value="">-- Select --</option>
+                <option value="registration">Registration Desk</option>
+                <option value="logistics">Logistics & Setup</option>
+                <option value="social_media">Social Media Support</option>
+                <option value="other">Other</option>
+            </select>
+
+            <label for="message">Why do you want to volunteer?</label>
+            <textarea id="message" name="message" rows="4"></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>📧 Contact: <a href="mailto:rishopikaseyaruban@gmail.com">volunteer@example.com</a></p>
+        <p>© 2024 [Your Organization]. All rights reserved.</p>
+    </footer>
+</body>
+</html>
